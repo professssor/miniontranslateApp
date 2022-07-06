@@ -44,9 +44,6 @@ iframe {
     transform: rotate(360deg);
   }
 }
-iframe:hover {
-  animation: none;
-}
 
 .io-container {
   background: #ffd55e;
