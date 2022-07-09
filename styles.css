@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* to have scrollbar functionality without seeing ugly sidebar */
 body::-webkit-scrollbar {
   display: none;
 }
@@ -20,7 +21,6 @@ body::-webkit-scrollbar {
 .heading-container > h1 {
   align-self: baseline;
   text-align: center;
-  font-weight: 300;
   font-size: 3rem;
 
   font-family: "Bangers", cursive;
@@ -32,7 +32,6 @@ body::-webkit-scrollbar {
 iframe {
   animation: round 1s infinite;
   width: 8rem;
-  cursor: crosshair;
 }
 
 @keyframes round {
@@ -70,6 +69,7 @@ iframe {
   color: #ffd55e;
 }
 textarea {
+  resize: none;
   background-color: black;
   outline: none;
   border-radius: 2rem;
